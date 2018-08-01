@@ -32,10 +32,23 @@ namespace ExampleDynamicsPlugin
                 try
                 {
                     // Plug-in based logic goes here
-                }
-                catch (FaultException<OrganizationServiceFault> ex)
-                {
-                    throw new InvalidPluginExecutionException("An error occurred within the CreateTaskOnAccountCreate plug-in", ex);
+
+                    // An accountnumber should not already exist because
+                    // it is system generated
+                    if (entity.Attributes.Contains("accountnumber") == false)
+                    {
+                        // create a new accountnumber attribute, set its value, and add
+                        // the attribute to the entity's attribute collection
+                        Random rndgen = new Random();
+                        entity.Attributes.Add("accountnumber", string.Concat("TLD-", rndgen.Next().ToString()));
+                    }
+                    else
+                    {
+                        // Throw an error, because the accountnumber must be system generated
+                        // Throwing an InvalidPluginExecutionEception will cause the error message
+                        // to be displayed in a dialog of the web application
+                        throw new InvalidPluginExecutionException("The account number can only be set by the system");
+                    }
                 }
 
                 catch (Exception ex)

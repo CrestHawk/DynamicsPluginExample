@@ -1,0 +1,9 @@
+C:\Users\thomasd\Documents\Visual Studio 2015\Projects\DynamicsPluginExample\ExampleDynamicsPlugin\bin\Debug\ExampleDynamicsPlugin.dll
+C:\Users\thomasd\Documents\Visual Studio 2015\Projects\DynamicsPluginExample\ExampleDynamicsPlugin\bin\Debug\ExampleDynamicsPlugin.pdb
+C:\Users\thomasd\Documents\Visual Studio 2015\Projects\DynamicsPluginExample\ExampleDynamicsPlugin\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\thomasd\Documents\Visual Studio 2015\Projects\DynamicsPluginExample\ExampleDynamicsPlugin\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\thomasd\Documents\Visual Studio 2015\Projects\DynamicsPluginExample\ExampleDynamicsPlugin\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\thomasd\Documents\Visual Studio 2015\Projects\DynamicsPluginExample\ExampleDynamicsPlugin\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\thomasd\Documents\Visual Studio 2015\Projects\DynamicsPluginExample\ExampleDynamicsPlugin\obj\Debug\ExampleDynamicsPlugin.csprojResolveAssemblyReference.cache
+C:\Users\thomasd\Documents\Visual Studio 2015\Projects\DynamicsPluginExample\ExampleDynamicsPlugin\obj\Debug\ExampleDynamicsPlugin.dll
+C:\Users\thomasd\Documents\Visual Studio 2015\Projects\DynamicsPluginExample\ExampleDynamicsPlugin\obj\Debug\ExampleDynamicsPlugin.pdb
